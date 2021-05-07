@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    background-color: rgb(55, 35, 77);
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.custom-box{
+    max-width: 700px;
+    background-color: white;
+    margin: 40px auto;                                      
+    padding: 30px;
+    border-radius: 10px;
+}
+                                                        /*definição de margens e cores para 
+                                                        painéis e botões*/
+.btn-info{
+   
+    background-color: rgb(146, 182, 131);
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.add_field_button{
+    margin: 5px;
+    padding: 5px 35px;
+    background-color: rgb(146, 182, 131);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.input_fields_wrap{
+    max-width: 700px;
+    background-color: white;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.input-input{
+    border-radius: 5px;
+    box-shadow: teal;
+    border-color: rgb(77, 3, 146);
+    margin: 5px;
+    height: 25px;
+    min-width: 150px;
+    width: 50%;
+}
+
+.conclusion{
+    
+    padding: 5px 35px;
+    background-color:  rgb(146, 182, 131);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.row{
+    overflow-x: auto;
+    white-space: nowrap;        /*scroll de tabela para telas pequenas*/
+}
